@@ -1,0 +1,90 @@
+@media only screen and (min-width: 992px) {
+
+/* DESIGN SYSTEM */
+:root {
+    /* Font family */
+    --font-primary: 'Ubuntu', sans-serif;
+
+    /* Font sizes */
+    --fs-sm: 1rem; /**/
+    --fs-body: 1.125rem; /**/
+    --fs-lead: 1.5rem; /**/
+    --fs-lg: 1.75rem; /**/
+    --fs-xl: 2.375rem; /**/
+    --fs-2xl: 3.25rem;
+
+    /* Spacing */
+    --sp-0: 0.5rem; /* 6 px */
+    --sp-1: 0.75rem; /* 12 px */ 
+    --sp-2: 1rem; /* 16 px */ 
+    --sp-3: 1.25rem; /* 20 px */ 
+    --sp-4: 1.5rem; /* 24 px */ 
+    --sp-8: 2.5rem; /* 40 px */ 
+    --sp-12: 3.5rem; /* 56 px */ 
+    --sp-13: 3.75rem; /* 60 px */ 
+}
+
+/* BASE */ 
+body {
+    align-items: center; 
+}
+
+/* LAYOUT */ 
+.section {
+    max-width: 1000px;
+    row-gap: var(--sp-8);
+    padding: var(--sp-4);
+}
+
+.target, .testimonials, .offer {
+    max-width: 900px;
+}
+
+/* COMPONENTS */ 
+
+
+/* SPECIFIC ELEMENTS */
+.hero__content {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--sp-8);
+}
+
+.hero__actions-wrapper {
+    justify-content: flex-start;
+}
+
+.projects__card {
+    flex-direction: row;
+    padding: 0;
+    column-gap: var(--sp-4);
+}
+
+.projects__actions {
+    flex-direction: row;
+    gap: var(--sp-2);
+}
+
+.about-me__content {
+    gap: var(--sp-8);
+}
+
+.about-me__profile{
+    flex-direction: row;
+    align-items: center;
+    gap: var(--sp-4);
+}
+
+.about-me__picture {
+    width: 50%;
+    height: 50%;
+}
+
+.about-me__body {
+    gap: var(--sp-4);
+}
+
+.footer {
+    row-gap: var(--sp-2);
+}
+}
