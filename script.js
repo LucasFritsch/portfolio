@@ -6,7 +6,7 @@ let titleTags = document.querySelectorAll(".title-tag");
 let buttons = document.querySelectorAll(".button");
 
 modeButton.addEventListener("click", changeScreenMode)
-modeButton.addEventListener("touchstart", changeScreenMode)
+modeButton.addEventListener("touch", changeScreenMode)
 
 function changeScreenMode() {
     if (modeButtonIcon.src.includes("icons/sun-bold.svg")) {
