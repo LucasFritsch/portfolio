@@ -334,6 +334,8 @@ header {
     row-gap: var(--sp-8);
     padding: 0px;
     background-color: var(--background-01);
+
+    margin-top: 50px;
 }
 
 .hero__content {
